@@ -24,7 +24,7 @@ package section02;
  * 	%x : 정수(16진수)
  * 	%f : 실수
  * 	%s : 문자열
- *  %c : 문자
+ * 	%c : 문자
  * 
  */
 public class ConsolePrint {
