@@ -40,6 +40,8 @@ public class ConsolePrint {
 
 		System.out.println("오늘은 " + 9 + "월" + 12 + "일 입니다.");
 		
+		
+		
 		System.out.printf("%d은 첫번째, %f은 두번째, %s은 세번째.\n", 1, 2.0, "셋");
 		
 		
