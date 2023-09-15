@@ -13,7 +13,7 @@ package section04;
  */
 public class Conditional03 {
 	public static void main(String[] args) {
-		double num = 13.5;
+		// double num = 13.5;
 		int num = 10;
 		if(num % 3 == 0) {
 			System.out.println("num % 3 == 0");
