@@ -8,7 +8,7 @@ public class Loop04 {
 			// i : 1 j:0 1 2 3 4 5 6	print: *******
 			// i : 2 j:0 1 2 3 4 5 6	print: *******
 			// i : 3 j:0 1 2 3 4 5 6	print: *******
-			// i : 4 j:0 1 2 3 4 5 6	print: *******
+			// i : 4 j:0 1 2 3 4 5 6	 print: *******
 			// i : 5 j:0 1 2 3 4 5 6	print: *******
 			// i : 6 j:0 1 2 3 4 5 6	print: *******
 			for(int j = 0; j < i+1; j++) {

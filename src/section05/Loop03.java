@@ -14,7 +14,7 @@ public class Loop03 {
 	public static void main(String[] args) {
 		
 		//for문을 이용하여 0~9까지 출력
-		for(int i = 0; i < 10; i++) {
+		for(int i = 0;  i < 10; i++) {
 			System.out.println(i);	// 0
 									// 1
 									// ...
