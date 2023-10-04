@@ -10,7 +10,7 @@ public class Method06 {
 		max = max(1, 2, 3);
 		System.out.println("Max :" + max);
 	}
-	
+	// 6. 인자 O, 리턴 O - > 인자값을 바당 연산 후 결과값 반환 메서드
 	public static int max(int a, int b) {
 		int max = a > b ? a : b; // 삼항연산자
 		return max;
