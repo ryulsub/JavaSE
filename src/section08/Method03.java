@@ -16,13 +16,14 @@ public class Method03 {
 		
 		printPokeMon(no, name, hp);
 		
-		System.out.println("=====================");
+		System.out.println("============================");
 		
 		printPokeMon("001", "이상해씨", "풀타입");
+		printPokeMon("001", "이상해씨", 300, "풀타입");
 		
-	}
+	} 
 	
-	// 3. 인자 O - 여러개 여러타입 매개변수, 리턴 X 
+	// 3. 인자 O - 여러개 여러타입 매개변수, 리턴 X
 	public static void printPokeMon(String no, String name, int hp) {
 		System.out.println("No. " + no);
 		System.out.println("Name : " + name);
@@ -35,4 +36,15 @@ public class Method03 {
 		System.out.println("Name : " + name);
 		System.out.println("Type : " + type);
 	}
+	
+	public static void printPokeMon(String no, 
+			String name,
+			int hp, 
+			String type) {
+		System.out.println("No. " + no);
+		System.out.println("Name : " + name);
+		System.out.println("HP : " + hp);
+		System.out.println("Type : " + type);
+	}
+	
 }

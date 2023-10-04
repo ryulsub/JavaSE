@@ -15,12 +15,13 @@ public interface Constant {
 		// 원의 반지름
 		int r = 10;
 		
-		// PI = 3.2; // 상수 수정불가!
-		
 		double area = PI * r * r;
 		System.out.println("원의 넓이: " + area);
 		
 		area = Math.PI * Math.pow(r, 2);
-		System.out.println("원의 넓이2: " + area);
+		System.out.println("원의넓이: " + area);
+		
 	}
+	
 }
+

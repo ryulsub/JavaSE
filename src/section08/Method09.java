@@ -14,7 +14,8 @@ package section08;
 public class Method09 {
 
 	public static void main(String[] args) {
-		MemberVO memberVO = new MemberVO();
+		MemberVO memberVO
+		= new MemberVO();
 		memberV0.setId("025");
 		memberV0.setName("피카츄");
 		memberV0.setPassword("피카피카");

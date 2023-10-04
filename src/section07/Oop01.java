@@ -34,10 +34,14 @@ package section07;
  *  
  *  	변수(멤버변수, 인스턴스변수) => 속성
  *  	메서드(멤버메서드, 인스턴스메서드) => 기능
+ * }
+ *   
+ *  객체화 - new 연산자로 인스턴스화 가능하다.
+ *  클래스명(타입) 변수명 = new 클래스();
  *  
- *  	
- *  }
- *  
+ * 	가비지 콜렉터(Garbage Collector)
+ *   자바에서 동적으로 할당된 메모리 중에서 더이상 사용되지 않는 메모리를
+ *   해제하는 기능을 수행하는 프로그램
  * 
  */
 public class Oop01 {
@@ -48,7 +52,7 @@ public class Oop01 {
 		System.out.println(t1.wheel);
 		System.out.println(t1.color);
 		System.out.println(t1.model);
-	
+		
 		t2.color = "BLUE";
 		
 		System.out.println(t2.wheel);
@@ -59,5 +63,11 @@ public class Oop01 {
 		t1.drive();
 		t1.autopilot();
 		
+		
 	}
+	
 }
+
+
+
+
