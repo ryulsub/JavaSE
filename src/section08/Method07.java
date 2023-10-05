@@ -10,11 +10,10 @@ public class Method07 {
 		System.out.println("평균: " + result[1]);
 	}
 	
-	// 배열로 리턴 가능하다.
-	public static double[] summary(int[]values) {
-		// result[0] : 합계, result[1] : 평균
+	public static double[] summary(int[] values) {
+		// result[0] : 합계 , result[1] : 평균
 		double[] result = new double[2];
-		
+	
 		int sum = 0;
 		for(int value : values) {
 			sum += value;
@@ -26,5 +25,5 @@ public class Method07 {
 		result[1] = avg;
 		
 		return result;
-	}
+    }	
 }
