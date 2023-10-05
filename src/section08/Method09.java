@@ -16,13 +16,13 @@ public class Method09 {
 	public static void main(String[] args) {
 		MemberVO memberVO
 		= new MemberVO();
-		memberV0.setId("025");
-		memberV0.setName("피카츄");
-		memberV0.setPassword("피카피카");
+		memberVO.setId("025");
+		memberVO.setName("피카츄");
+		memberVO.setPassword("피카피카");
 		
 		
 		String id = memberVO.getId();
-		String name = memberV0.getName();
+		String name = memberVO.getName();
 		String pwd = memberVO.getPassword();
 		
 		System.out.println("ID : " + id);
